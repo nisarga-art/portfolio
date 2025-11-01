@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Nisarga H A</title>
+
+  <!-- Font Awesome for Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h2 class="logo">Nisarga H A</h2>
+    <nav class="nav-links">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#skills">Skills</a>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="section active">
+    <div class="container">
+      <div class="text-section">
+        <h2>Hello, It's Me</h2>
+        <h1>Nisarga H A</h1>
+        <h3>And I'm interested in <span class="highlight">Data Science</span></h3>
+        <p>
+          Computer Science Engineering student specializing in AI & Data Science, with hands-on expertise in Python,
+          Machine Learning, Fullstack Development, and Software Development — building impactful real-world solutions.
+        </p>
+
+        <div class="social-links">
+          <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="mailto:nisargah28@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <a href="./Resume astf.pdf" download class="btn">Download CV</a>
+      </div>
+
+      <div class="image-section">
+        <img src="./photo.jpeg.jpeg" alt="Profile Photo">
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section hidden">
+    <h2>About Me</h2>
+    <p>
+        <li>
+      Results-driven Computer Science Engineering student specializing in AI & Data Science, with hands-on expertise in Python, 
+      Machine Learning, and Software Development. </li>
+      <br>
+       <li>Proven ability to design data-driven solutions, build scalable applications, 
+      and solve complex problems through analytical thinking and teamwork.</li>
+      <br>
+      <li> Passionate about leveraging cutting-edge   
+      technologies to deliver impactful real-world solutions </li>
+      <br>
+      <li>I hereby declare that all the information provided above is true to the best of my knowledge and belief.</li>
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section hidden">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Mobile App (Android App)</h3>
+      <p>
+        A modern Android MVVM app that allows users to create and manage resumes with offline sync and API integration.
+      </p>
+      <h4>Key Features:</h4>
+      <ul>
+        <li>Paginated user list with infinite scrolling (Reqres API).</li>
+        <li>Offline add-user sync using <strong>WorkManager</strong> and <strong>Room</strong>.</li>
+        <li>Integrated <strong>TMDB API</strong> to fetch trending movies with poster and detail pages.</li>
+        <li>Modern architecture: <strong>MVVM + Kotlin Coroutines + Flow + Hilt</strong>.</li>
+      </ul>
+      <h4>Tech Stack:</h4>
+      <p>Kotlin, Retrofit, Room, WorkManager, Hilt, Coil, Paging 3, Jetpack Navigation</p>
+    </div>
+
+    <div class="project">
+      <h3>Static Web Design Project</h3>
+      <p>
+        <li>Created responsive static website showcasing layout & UI design.</li>
+        <li>Technologies Used: HTML, CSS</li>
+      </p>
+    </div>
+
+    <div class="project">
+      <h3>Supply Chain Optimization & Distribution – PRASUNET PVT. LTD. (2025)</h3>
+      <p>
+        <li>Reduced inventory holding cost by 12% using clustering on store data.</li>
+        <li>Increased product availability by 15% via demand forecasting model.</li>
+        <li>Technologies Used: Python, Streamlit</li>
+      </p>
+    </div>
+  </section>
+
+  <!-- Certificates -->
+  <section id="certificates" class="section hidden">
+    <h2>Certificates</h2>
+    <ul>
+      <li><a href="/coursera1.pdf" target="_blank"> Exploratory Data Analysis with MATLAB </a></li>
+      <li><a href="/big data apache spark.pdf" target="_blank">big data apache spark</a></li>
+      <li><a href="/dataminig.pdf" target="_blank">data minig</a></li>
+      <li><a href="/asynchronous in python.pdf" target="_blank">asynchronous in python </a></li>
+      <li><a href="/big data apache spark.pdf" target="_blank">big data apache spark</a></li>
+      <li><a href="/big data.pdf" target="_blank">big data</a></li>
+      <li><a href="/bitcoin.pdf" target="_blank"> bitcoin</a></li>
+      <li><a href="/blockchain.pdf" target="_blank">blockchain</a></li>
+      <li><a href="/Coursera comunication.pdf" target="_blank">Coursera comunication</a></li>
+      <li><a href="/cybersecurity certificate.pdf" target="_blank"> cybersecurity</a></li>
+      <li><a href="/datascience and machinelearning.pdf" target="_blank">datascience and machinelearning</a></li>
+      <li><a href="/dataware house.pdf" target="_blank">dataware house</a></li>
+      <li><a href="/finite automata.pdf" target="_blank"> finite automata</a></li>
+      <li><a href="/IBM.pdf" target="_blank">IBM</a></li>
+
+    </ul>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section hidden">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <span>Python</span>
+      <span>full stack</span>
+      <span>frontend development</span>
+      <span>Data analytical</span>
+      <span>Data Science</span>
+      <span>JavaScript</span>
+      <span>React</span>
+      <span>SQL</span>
+      <span>Data Visualization</span>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>© 2025 Nisarga H A | All Rights Reserved</footer>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>
